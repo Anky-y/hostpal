@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;700&display=swap');
+#main_text__container {
+  margin-top: 100px;
+  margin-left: auto;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-80%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.char {
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  overflow: hidden;
+  display: inline-block;
+}
+#main_header {
+  font-size: 150px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  margin: 0 0 0 50px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#main_header div {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+#main_content {
+  margin-top: 20px;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 0 0 50px;
+  text-align: center;
+}
+
+.custom-navbar {
+  font-size: 25px;
+}
+.custom-brand {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 872px) {
+  #main_header {
+    font-size: 100px;
+    text-align: left;
+  }
+  #main_content {
+    text-align: left;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 610px) {
+  #main_header {
+    font-size: 75px;
+    text-align: left;
+  }
+  #main_content {
+    text-align: left;
+    font-size: 23px;
+  }
+}

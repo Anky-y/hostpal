@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;700&display=swap');
+
+#help_text {
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 50px;
+  border-top: 1px solid grey;
+}
+
+#help_heading {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+#help_content {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 20px 100px;
+}
